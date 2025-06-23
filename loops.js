@@ -1,10 +1,10 @@
-// let arr = [10,20,89,40,50];
-// max 
-// for(let i = 0 ; i < arr.length; i++){
-//   if(arr[i]>arr[i+1]){
-//     console.log(arr[i])
-//   }
-// }
+let arr = [10,20,89,40,50];
+max 
+for(let i = 0 ; i < arr.length; i++){
+  if(arr[i]>arr[i+1]){
+    console.log(arr[i])
+  }
+}
 
 // let arr = [10,20,89,40,50];
 // let max = Math.max(arr[0],arr[1]);  // 20  89
