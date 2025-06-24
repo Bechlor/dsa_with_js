@@ -71,3 +71,17 @@ console.log(sMax,"distinct second maximum value of an array");
 
 // reverse the elements of an array
 //  with third variable 
+let arr5 = [10,20,30,40,60,25,90]
+let start = 0;
+let end = arr5.length - 1;
+while (start < end){
+  let temp = arr5[start];
+  arr5[start] = arr5[end]
+  arr5[end] = temp;
+
+  start++;
+  end--;
+}
+
+console.log(arr5);
+
