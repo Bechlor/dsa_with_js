@@ -96,3 +96,40 @@ function isSorted(arr6) {
 }
 
 console.log(isSorted(arr6));
+
+
+// shift zeros elements are in left and once in right
+
+let arr7 = [1,0,0,1,1,0,0,1,0];
+let i = 0;
+let j = 0;
+
+while(i < arr7.length){
+  if(arr7[i] == 0){
+    let temp = arr7[i];
+    arr7[i] = arr7[j]
+    arr7[j] = temp;
+    j++
+  }
+  i++
+}
+console.log(arr7,"shift zeros to left and once to right")
+
+// shift zeros elements are in right and once in left
+
+let arr8 = [1,0,0,1,1,0,0,1,0];
+let I = 0;
+let J = 0;
+ while(I < arr8.length){
+  if(I == 1){
+    let temp = arr8[I]
+    arr8[I] = arr8[J];
+    arr8[J] = temp;
+    I++
+  }
+  j++
+
+ }
+
+ console.log(arr8,"regf")
+
